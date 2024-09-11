@@ -69,10 +69,10 @@
             // +------------------------------------------------------------------------------------+
 
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4    &kp N5     &kp N6     &kp N7    &kp N8   &kp N9     &kp N0  &kp BSPC
-&kp TAB    &kp F1  &kp F2  &kp F3  &kp F4    &kp F5     &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &trans  &trans
-&kp LSHFT  &kp F6  &kp F7  &kp F8  &kp F9    &trans     &trans     &kp F10   &kp F11  &kp F12    &trans  &trans
-                           &trans  &kp LGUI  &kp RET    &kp SPACE  &kp LALT  &mo 3
+&kp ESC    &kp N1     &kp N2  &kp N3  &kp N4    &kp N5     &kp N6     &kp N7    &kp N8   &kp N9     &kp N0  &kp BSPC
+&kp TAB    &kp F1     &kp F2  &kp F3  &kp F4    &kp F5     &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT  &trans  &trans
+&kp LSHFT  &kp LCTRL  &kp F6  &kp F7  &kp F8    &kp F9     &trans     &kp F10   &kp F11  &kp F12    &trans  &trans
+                              &trans  &kp LGUI  &kp RET    &kp SPACE  &kp LALT  &mo 3
             >;
         };
 
@@ -87,10 +87,10 @@
             // +------------------------------------------------------------------------------------+
 
             bindings = <
-&kp TAB    &kp EXCL   &kp AT     &kp HASH   &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR   &kp BSPC
-&td_caps   &kp TILDE  &kp MINUS  &kp LBKT   &kp LPAR          &kp COLON    &kp BSLH   &kp RPAR  &kp RBKT  &kp PLUS  &kp EQUAL  &kp GRAVE
-&kp LCTRL  &kp GLOBE  &kp UNDER  &kp QMARK  &kp LBRC          &kp DQT      &kp SEMI   &kp RBRC  &trans    &kp PIPE  &kp FSLH   &kp ESC
-                                 &mo 3      &kp LEFT_COMMAND  &kp RET      &kp SPACE  &kp LALT  &trans
+&kp ESC   &kp EXCL   &kp AT     &kp HASH   &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR   &kp BSPC
+&kp TAB   &kp TILDE  &kp MINUS  &kp LBKT   &kp LPAR          &kp COLON    &kp BSLH   &kp RPAR  &kp RBKT  &kp PLUS  &kp EQUAL  &kp GRAVE
+&kp CAPS  &kp LCTRL  &kp UNDER  &kp QMARK  &kp LBRC          &kp DQT      &kp SEMI   &kp RBRC  &trans    &kp PIPE  &kp FSLH   &kp ESC
+                                &mo 3      &kp LEFT_COMMAND  &kp RET      &kp SPACE  &kp LALT  &trans
             >;
         };
 
@@ -105,9 +105,9 @@
             // +------------------------------------------------------------------------------------+
 
             bindings = <
-&kp TAB     &trans            &trans             &trans        &trans        &trans          &trans      &trans        &trans        &trans  &trans  &kp BSPC
+&trans      &trans            &trans             &trans        &trans        &trans          &trans      &trans        &trans        &trans  &trans  &kp BSPC
 &bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_PREV  &kp C_PP      &kp C_NEXT    &trans  &trans  &trans
-&kp LCTRL   &ext_power EP_ON  &ext_power EP_OFF  &trans        &trans        &trans          &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans  &kp ESC
+&trans      &ext_power EP_ON  &ext_power EP_OFF  &trans        &trans        &trans          &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans  &kp ESC
                                                  &trans        &trans        &kp RET         &kp SPACE   &trans        &trans
             >;
         };
