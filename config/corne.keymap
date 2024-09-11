@@ -11,32 +11,12 @@
  * 
  */
 
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/ext_power.h>
-#include <dt-bindings/zmk/keys.h>
-
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
 #define MEDIA 3
 
-// This is ok if only a single sticky key is used.
-// Create new behavior if multiple &sk is used.
-
-&sk { quick-release; };
-
 / {
-    behaviors {
-        td_caps: tap_dance_caps {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_CAPS";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&sk LSHFT>, <&kp CAPSLOCK>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
