@@ -36,9 +36,9 @@
             // +------------------------------------------------------------------------------------+
 
             bindings = <
-&kp ESC    &kp Q      &kp W  &kp E  &kp R     &kp T      &kp Y      &kp U         &kp I  &kp O    &kp P      &kp BSPC
-&kp TAB    &kp A      &kp S  &kp D  &kp F     &kp G      &kp H      &kp J         &kp K  &kp L    &kp SEMI   &kp DEL
-&kp LSHFT  &kp LCTRL  &kp Z  &kp X  &kp C     &kp V      &kp B      &kp N         &kp M  &kp DOT  &kp COMMA  &kp SLASH
+&kp ESC    &kp Q      &kp W  &kp E  &kp R     &kp T      &kp Y      &kp U         &kp I  &kp O      &kp P     &kp BSPC
+&kp TAB    &kp A      &kp S  &kp D  &kp F     &kp G      &kp H      &kp J         &kp K  &kp L      &kp SEMI  &kp SQT
+&kp LSHFT  &kp LCTRL  &kp Z  &kp X  &kp C     &kp V      &kp B      &kp N         &kp M  &kp COMMA  &kp DOT   &kp SLASH
                              &mo 1  &kp LGUI  &kp RET    &kp SPACE  &kp LEFT_ALT  &mo 2
             >;
         };
@@ -72,10 +72,10 @@
             // +------------------------------------------------------------------------------------+
 
             bindings = <
-&kp ESC   &kp EXCL   &kp AT     &kp HASH   &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR   &kp BSPC
-&kp TAB   &kp TILDE  &kp MINUS  &kp LBKT   &kp LPAR          &kp COLON    &kp BSLH   &kp RPAR  &kp RBKT  &kp PLUS  &kp EQUAL  &kp GRAVE
-&kp CAPS  &kp LCTRL  &kp UNDER  &kp QMARK  &kp LBRC          &kp DQT      &kp SEMI   &kp RBRC  &trans    &kp PIPE  &kp FSLH   &trans
-                                &mo 3      &kp LEFT_COMMAND  &kp RET      &kp SPACE  &kp LALT  &trans
+&kp ESC         &kp EXCL   &kp AT  &kp HASH  &kp DLLR          &kp PRCNT    &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp BSLH
+&kp TAB         &trans     &trans  &trans    &trans            &trans       &trans         &trans     &kp LBKT              &kp RBKT               &kp EQUAL  &kp GRAVE
+&kp LEFT_SHIFT  &kp LCTRL  &trans  &trans    &trans            &trans       &trans         &trans     &trans                &trans                 &trans     &trans
+                                   &mo 3     &kp LEFT_COMMAND  &kp RET      &kp SPACE      &kp LALT   &trans
             >;
         };
 
