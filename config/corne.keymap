@@ -90,7 +90,7 @@
             // +------------------------------------------------------------------------------------+
 
             bindings = <
-&trans      &tog 0            &tog 4             &tog 8        &trans        &trans          &trans      &trans        &trans        &trans  &trans  &kp BSPC
+&trans      &trans            &to 4              &to 8         &trans        &trans          &trans      &trans        &trans        &trans  &trans  &kp BSPC
 &bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_PREV  &kp C_PP      &kp C_NEXT    &trans  &trans  &trans
 &trans      &ext_power EP_ON  &ext_power EP_OFF  &trans        &trans        &trans          &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans  &kp ESC
                                                  &none         &none         &kp RET         &kp SPACE   &none         &none
@@ -130,7 +130,7 @@
         mac_media_layer {
             label = "mac_media";
             bindings = <
-&trans      &tog 0            &tog 4             &tog 8        &trans        &trans          &trans      &trans        &trans        &trans  &trans  &kp BSPC
+&trans      &to 0             &trans             &to 8         &trans        &trans          &trans      &trans        &trans        &trans  &trans  &kp BSPC
 &bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_PREV  &kp C_PP      &kp C_NEXT    &trans  &trans  &trans
 &trans      &ext_power EP_ON  &ext_power EP_OFF  &trans        &trans        &trans          &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans  &kp ESC
                                                  &none         &none         &kp RET         &kp SPACE   &none         &none
@@ -148,11 +148,11 @@
         };
 
         game_media_layer {
-            label = "mac_media";
+            label = "game_media";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans       &trans      &trans        &trans        &trans  &trans  &kp BSPC
 &trans  &trans  &trans  &trans  &trans  &trans       &kp C_PREV  &kp C_PP      &kp C_NEXT    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &tog 0       &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans  &kp ESC
+&trans  &trans  &trans  &trans  &to 0   &to 4        &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans  &kp ESC
                         &none   &none   &kp SPACE    &kp SPACE   &none         &none
             >;
         };
