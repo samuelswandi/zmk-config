@@ -90,7 +90,7 @@
             // +------------------------------------------------------------------------------------+
 
             bindings = <
-&trans      &sl 0             &sl 4              &trans        &trans        &trans          &trans      &trans        &trans        &trans  &trans  &kp BSPC
+&trans      &to 0             &to 4              &trans        &trans        &trans          &trans      &trans        &trans        &trans  &trans  &kp BSPC
 &bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_PREV  &kp C_PP      &kp C_NEXT    &trans  &trans  &trans
 &trans      &ext_power EP_ON  &ext_power EP_OFF  &trans        &trans        &trans          &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans  &kp ESC
                                                  &none         &none         &kp RET         &kp SPACE   &none         &none
