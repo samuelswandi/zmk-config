@@ -72,10 +72,10 @@
             // +------------------------------------------------------------------------------------+
 
             bindings = <
-&kp ESC         &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp BSLH
-&kp TAB         &trans     &trans  &trans    &trans    &trans       &trans         &trans     &kp LBKT              &kp RBKT               &kp EQUAL  &kp GRAVE
-&kp LEFT_SHIFT  &kp LCTRL  &trans  &trans    &trans    &trans       &trans         &trans     &trans                &trans                 &trans     &trans
-                                   &mo 3     &trans    &kp RET      &kp SPACE      &none      &kp LEFT_ALT
+&kp ESC         &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp ASTERISK  &kp BSLH
+&kp TAB         &trans     &trans  &trans    &trans    &trans       &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL  &trans        &kp GRAVE
+&kp LEFT_SHIFT  &kp LCTRL  &trans  &trans    &trans    &trans       &trans         &trans                &trans                 &trans     &trans        &trans
+                                   &mo 3     &trans    &kp RET      &kp SPACE      &none                 &kp LEFT_ALT
             >;
         };
 
@@ -120,10 +120,10 @@
         mac_raise_layer {
             label = "mac_raise";
             bindings = <
-&kp ESC         &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp BSLH
-&kp TAB         &trans     &trans  &trans    &trans    &trans       &trans         &trans     &kp LBKT              &kp RBKT               &kp EQUAL  &kp GRAVE
-&kp LEFT_SHIFT  &kp LCTRL  &trans  &trans    &trans    &trans       &trans         &trans     &trans                &trans                 &trans     &trans
-                                   &mo 7     &trans    &kp RET      &kp SPACE      &none      &kp LEFT_ALT
+&kp ESC         &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp ASTERISK  &kp BSLH
+&kp TAB         &trans     &trans  &trans    &trans    &trans       &trans         &kp LBKT              &kp RBKT               &kp EQUAL  &trans        &kp GRAVE
+&kp LEFT_SHIFT  &kp LCTRL  &trans  &trans    &trans    &trans       &trans         &trans                &trans                 &trans     &trans        &trans
+                                   &mo 7     &trans    &kp RET      &kp SPACE      &none                 &kp LEFT_ALT
             >;
         };
 
